@@ -1,0 +1,15 @@
+.TreeView {
+  list-style: none;
+  padding-left: 24px;
+}
+
+.TreeView .item-icon,
+.TreeView .item-name {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.TreeView .item-name.selected-item {
+  font-weight: bold;
+}

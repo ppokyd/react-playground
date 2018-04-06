@@ -1,0 +1,30 @@
+
+.SideMenu {
+  display: block;
+  height: 100%;
+  background-color: #23212f;
+  color: #fff;
+  padding-top: 10px;
+  position: fixed;
+  width: 16.6%;
+  top: 60px;
+}
+
+.SideMenu li {
+  padding-left: 3px;
+}
+
+.SideMenu a {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.SideMenu li.active {
+  border-left: 3px solid;
+  padding-left: 0;
+  background-color: #353246;
+}
+
+.SideMenu li.active a {
+  color: #fff;
+}

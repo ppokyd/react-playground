@@ -1,0 +1,29 @@
+
+.Header {
+  background-color: #222;
+  color: #fff;
+  text-align: left;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.Header-logo {
+  display: inline-block;
+  animation: Header-logo-spin infinite 20s linear;
+  height: 50px;
+  position: relative;
+  top: 5px;
+}
+
+.Header-title {
+  display: inline-block;
+  color: #fff;
+  vertical-align: text-top;
+}
+
+@keyframes Header-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
